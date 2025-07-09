@@ -29,8 +29,8 @@ jobs:
         context: .
         push: true
         tags: |
-          jacqueskingram/hello-cisco:latest
-          jacqueskingram/hello-cisco:${{ github.sha }}
+          jacqueskingram/hello-analog-devices:latest
+          jacqueskingram/hello-analog-devices:${{ github.sha }}
         platforms: linux/amd64,linux/arm64
 
   deploy-pages:
